@@ -1,0 +1,82 @@
+body {
+  margin: 10rem 0 0 0;
+  padding: 5rem 1rem 1rem 13rem;
+  position: relative;
+  font-family: Montserrat, "Arial";
+}
+
+a {
+  /* entfernt den <a> Unterstrich */
+  text-decoration: none;
+}
+
+.main{
+  padding-left: 5rem;
+  font-size: 20px;
+
+
+}
+
+
+
+#header {
+  align-items: center;
+  background-color: whitesmoke;
+  display: flex;
+  height: 170px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Überschrift mit Logo */
+#header .header-headline {
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+
+}
+.header-headline .logo {
+  width: 25%;
+  height: 25%;
+
+}
+
+/* ##### End Header Area ##### */
+
+/* Left Sidebar Styling */
+#l-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #2083ff;
+  padding: 1rem 1rem 0 0;
+
+}
+
+
+.nav-item {
+  position: relative;
+  font-size: 30px;
+  color: #d6e9ff;
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item:hover {
+  color: #f5f9ff;
+}
+
+.nav-item-name {
+  padding-left: 0.5rem;
+}
+
+
+
+
+
+
+
